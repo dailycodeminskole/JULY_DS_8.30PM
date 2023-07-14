@@ -1,0 +1,101 @@
+#################################################
+#  13.07.2023 8.30PM
+#################################################
+#  TOPICS TO BE COVERED 
+# 👉 Variables  in Python
+# 👉 Strings  in Python
+#################################################
+
+# assigning values to variables
+
+x = 100
+y = 200
+z = 300
+
+
+print(x)
+print(y)
+print(z)
+
+
+
+x,y,z =  100, 200 ,300 #not recommended
+
+print(x)
+print(y)
+print(z)
+
+
+
+x = 100
+y = 100 
+z = 200
+print(x)
+print(y)
+print(z)
+
+
+print(id(x))
+print(id(y))
+print(id(z))
+
+# python is a dynamically typed language
+
+
+x = 100
+print(x)
+print(id(x))
+
+x = "Ramesh"
+print(x)
+print(id(x))
+
+
+x = [11,22,33]
+print(x)
+print(id(x))
+
+
+
+
+
+# INtro to data types
+
+
+'''
+1. Numbers
+    a. Int : 11,22,3,-45,-89
+    b. Float : 8.11,3.1417,-3.33
+    c. Complex : 3+2j,1-8j
+2. Strings : ' ' or " " or  ''' '''
+
+3. List : [ ]
+
+4. Tuples : ( )
+ 
+5. Sets : {}
+
+6. Dictionaries : {key : values}
+
+7. Boolean :  True/False
+
+8. etc etc..
+
+
+'''
+
+
+
+
+# Intro to Strings
+
+name = 'Hello World'
+print(type(name)) #'str'
+
+
+x = 100.10
+print(type(x)) #float
+
+
+x = '100'
+print(type(x)) #str
