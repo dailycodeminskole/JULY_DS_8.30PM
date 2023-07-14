@@ -1,0 +1,70 @@
+#################################################
+#  12.07.2023 8.30PM
+#################################################
+#  TOPICS TO BE COVERED 
+# 👉 Variables  in Python
+#################################################
+#  it will print as it is on the screen*
+print("Hello World")
+print('Good Evening')
+print('100+100')
+
+
+print(100+100)
+print(100-100)
+print(100*100)
+print(100/100)
+
+
+print(3*"Rizwan")
+# print(3/"Rizwan") #unsupported operand
+
+print("Eknath" + "Shinde") #concatenation
+# print("Eknath" - "Shinde") #unsupported 
+
+
+
+# Variables
+
+x = 100
+
+name = "Sameer"
+
+
+print('name')
+print(name) #Variables to be used without quotes
+print(type(name)) #str
+
+
+print(x) #Variables to be used without quotes
+print(type(x)) #int
+
+# allowed variable names
+'''
+iam
+i_am
+i_am_
+iam_
+_iam
+_iam_
+i_am_no1
+i_am_no1
+'''
+
+# not allowed
+'''
+@coolb#y
+$$123Maddy
+%%123boy%%
+123
+'''
+
+# allowed but not recommended
+# double underscore dunder variable
+
+'''
+__javed__
+__rahul__
+__class__
+
+'''
