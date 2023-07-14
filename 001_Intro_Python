@@ -1,0 +1,22 @@
+#################################################
+#  11.07.2023 8.30PM
+#################################################
+#  TOPICS TO BE COVERED 
+# 👉 INtro Python
+#################################################
+
+#  to display the content on the screen 
+print("Hello World")  #string
+print("Good Evening")
+print("10+10")
+
+# as a calc
+print(10+10) #number
+print(10-10)
+print(10*10)
+print(10/10)
+print(10%10)
+
+
+# 
+print(3*"Rizwan")
