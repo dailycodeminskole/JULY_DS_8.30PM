@@ -1,0 +1,71 @@
+#################################################
+#  14.07.2023 8.30PM
+#################################################
+#  TOPICS TO BE COVERED 
+# 👉 Indexing in Strings
+# 👉 Slicing in Strings
+#################################################
+#        0123456
+#  accessing indinidual char using Indexing
+greet = "WELCOME"
+print(greet)
+print(type(greet))
+
+print(greet[0])
+print(greet[4])
+print(greet[6])
+
+
+# Slicing
+# n-1 char is considered
+print(greet[3:6]) #COME
+print(greet[3:7])
+
+#        012345678
+fruit = "PINEAPPLE"
+print(fruit[0:3]) #PINE
+print(fruit[0:4]) #PINE
+
+print(fruit[:4]) #start default will be the 0th element
+print(fruit[0:]) #end default will be the last  element
+
+# 
+
+email1 = "one@gmail.com"
+email2 = "one@yahooooooooo.com"
+print(email1[4:])
+print(email2[4:])
+
+
+# with step values
+# var[start:stop:step]
+
+#        012345678
+fruit = "PINEAPPLE"
+print(fruit[0:9:1])
+print(fruit[0:9:2])
+
+
+
+# Negative Indexing
+fruit = "PINEAPPLE"
+print(fruit[-1]) # last element
+print(fruit[-7]) # 0th element
+
+
+
+# usage of Negative Indexing
+
+#  to get the last elemnt in a Strings
+
+x = "This is the latest version P v3"
+print(x[-1])
+
+y = "This is the latest version P v4"
+print(y[-1])
+
+
+# string reversal
+fruit = "PINEAPPLE"
+
+print(fruit[::-1])
