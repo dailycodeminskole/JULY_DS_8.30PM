@@ -1,0 +1,54 @@
+#################################################
+#  18.07.2023 8.30PM
+#################################################
+#  TOPICS TO BE COVERED 
+# 👉 String Methods
+#################################################
+# 
+
+name = "Suresh"
+print(name)
+print(type(name))
+
+
+name1 = "SuResH"
+print(name1)
+print(name1.upper())
+print(name1.title())
+print(name1.lower())
+
+
+thought = "Have a NICE dAy"
+print(thought.upper())
+print(thought.title())
+
+place = "            Pune"
+print(place)
+print(place.strip()) #to remove unwanted trailing and leading spaces
+
+
+color = "         blue              "
+print(color.strip())
+
+color = "         blue              sky"
+print(color.strip())
+
+
+thought = "Have a NICE dAy"
+print(thought.capitalize())
+
+# 
+
+s = "The Python version is 3.8"
+print(s.find("Python")) #will give the index position 
+print(s.find("3.8")) #will give the index position 
+
+t = "Today is a great day !!!"
+print(t.find("good")) # -1
+print("hello world")
+
+
+print(t.index("great"))
+print(t.index("good"))
+
+print("hello world")
