@@ -1,0 +1,80 @@
+#################################################
+#  24.07.2023 9.00PM
+#################################################
+#  TOPICS TO BE COVERED 
+# 👉 Lists in Python
+#################################################
+# Intro to list
+# list is a collection of objects/items
+# Derived data type
+# heterogenous = mixed
+
+# creating a list
+# direct way by writing the items inside a square bracket
+
+
+fruits = ['apple','guava','mango','banana']
+print(type(fruits))
+
+
+list_even = [2,4,6,8,10]
+print(list_even)
+
+
+students_list = ['Ramesh','Suresh','deepak','sameer']
+print(students_list)
+print(type(students_list))
+
+list_items = ['glass','steel','sand','iron',25,89,74,12]
+print(list_items)
+print(type(list_items))
+
+list_one = ['glass','steel','sand','iron',[77,88,99]]
+print(list_one)
+print(type(list_one))
+
+
+list_a = [""]
+print(list_a)
+print(type(list_a))
+
+
+
+list_a = [] #this is an empty list
+print(list_a)
+print(type(list_a))
+
+
+
+# creating a list using constructor/type casting
+
+
+# accessing the elements/items/objects in a list
+
+fruits = ['apple','guava','mango','banana']
+
+print(fruits) #apple
+print(fruits[0]) #apple
+print(fruits[2]) #mango
+
+
+#               0        1      2       3    4  5  6  7
+list_items = ['glass','steel','sand','iron',25,89,74,12]
+print(list_items[3])
+print(list_items[4]) #25
+print(list_items[7]) #12
+
+
+
+#             0        1      2      3         4
+list_one = ['glass','steel','sand','iron',[77,88,99]]
+print(list_one)
+print(list_one[3])
+print(list_one[4])
+print(list_one[4][2]) #99
+
+
+
+
+# HW : print 2 in the o/p
+list_two = ['glass','steel','sand','iron',[77,88,99[1,2,3,4]]]
