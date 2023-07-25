@@ -1,0 +1,111 @@
+#################################################
+#  24.07.2023 9.00PM
+#################################################
+#  TOPICS TO BE COVERED 
+# 👉 Lists in Python
+# 👉 Lists Methods
+#################################################
+#  duplicates are allowed in Lists
+
+# HW : print 2 in the o/p
+# list_two = ['glass','steel','sand','iron',[77,88,99[1,2,3,4]]] #subscriptable
+# print(list_two)
+#           0         1       2      3 
+fruits = ['apple','guava','mango','banana']
+print(fruits[0:2])
+print(fruits[:2]) #default start will be zero
+print(fruits[3:]) #default stop value  will be last
+
+
+
+# append
+# will add element at the end of the list
+
+print(fruits.append("kiwi")) #in place changes
+print(fruits)
+
+list_alpha = ['a','b','c','d','e']
+print(list_alpha)
+print(list_alpha.append("f"))
+print(list_alpha)
+
+#             0    1   2   3   4   5   6   7 
+list_alpha = ['a','b','c','d','e','k','k','k']
+print(list_alpha)
+
+list_alpha = ['a','b','c','d','e']
+list_alpha.append('e')
+print(list_alpha)
+
+
+# insert
+#  will add the item at the given location
+#             0    1   2   3   4   5   6   7 
+list_alpha = ['a','b','c','d','e','k','k','k']
+list_alpha.insert(3,"p")
+print(list_alpha) #in place changes
+
+
+
+fruits = ['apple','guava','mango','banana']
+fruits.insert(1,"grapes")
+print(fruits)
+
+
+
+# extend 
+fruits = ['apple','guava','mango','banana']
+veg = ['potato','tomato','onion']
+
+# fruits.extend(veg) #in place changes
+# print(fruits)
+
+veg.extend(fruits)
+print(veg)
+
+
+
+list_e = [0,2,4,6,8,10]
+list_o = [1,3,5,7,9]
+list_e.extend(list_o)
+print(list_e)
+
+
+
+
+# sort
+# will be done on the values of the items 
+list_num = [55,77,44,11,99,55,88]
+print(list_num.sort())
+print(list_num)
+
+list_alpha = ['k','k','a','b','c','d','e','k']
+list_alpha.sort()
+print(list_alpha)
+
+
+list_all = [11,22,'a','b',88,9]
+# list_all.sort() #not supported
+print(list_all)
+
+
+
+list_all = ['11','22','a','b','88','9']
+list_all.sort() #ASCII CODES : HW
+print(list_all)
+
+
+# reverse
+#  based on the index position of the items
+# the index position will get reversed
+
+#           0         1       2      3 
+fruits = ['apple','guava','mango','banana']
+
+print(fruits.reverse())
+print(fruits)
+
+#             0   1   2    3    4    5
+list_all = ['11','22','a','b','88','9']
+list_all.reverse() 
+print(list_all)
