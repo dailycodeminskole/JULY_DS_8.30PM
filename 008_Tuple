@@ -1,0 +1,134 @@
+#################################################
+#  26.07.2023 9.00PM
+#################################################
+#  TOPICS TO BE COVERED 
+# 👉 Tuple in Python
+# 👉 Tuple Methods
+#################################################
+
+#  a list that can not be changed
+#  to add restrictions 
+#  to safeguard againts unwanted changes in the list
+
+list_fruits =  ['apple','guava','mango','banana']
+
+print(list_fruits)
+list_fruits.append("kiwi")
+print(list_fruits)
+
+
+tup_fruits =  ('apple','guava','mango','banana')
+print(tup_fruits)
+print(type(tup_fruits)) #tuple
+
+
+
+tup_num = (6,4,4,6,6,6)
+print(tup_num)
+print(type(tup_num))
+
+
+tup_all = ('apple','banana',22,33)
+print(tup_all)
+print(type(tup_all))
+
+tup1 = ('apple','banana',22,33,(1,2,3,4,5))
+print(tup1)
+print(type(tup1))
+
+
+tup2 = ('apple','banana',22,33,[1,2,3,4,5])
+print(tup2)
+print(type(tup2))
+
+# no modifications canbe done
+# tup1.insert(3,"55")
+# print(tup1)
+
+
+
+# index
+# count
+
+# duplicates are allowed
+
+tup_fruits =  ('apple','guava','mango','banana','apple')
+print(tup_fruits)
+# accessing the elements in a tuple
+print(tup_fruits[0])
+print(tup_fruits[4])
+
+print(help(tuple))
+
+print(tup_fruits.count('apple')) #no of items
+print(tup_fruits.index('mango')) # index postion of the items
+
+
+
+# packing and unpacking 
+
+tup_fruits =  ('apple','guava','mango','banana')
+
+print(tup_fruits[0])
+print(tup_fruits[1])
+print(tup_fruits[2])
+print(tup_fruits[3])
+
+
+a = tup_fruits[0]
+b = tup_fruits[1]
+c = tup_fruits[2]
+d = tup_fruits[3]
+
+
+print(a)
+print(a)
+print(a)
+print(a)
+
+
+a,b,c,d = tup_fruits
+
+
+
+tup_num = (6,4,4,6,6,6)
+
+p,q,r,s,t,u = tup_num
+print(p)
+print(q)
+print(r)
+print(s)
+print(t)
+print(u)
+
+print(q)
+print(r)
+
+
+# 
+x = (33,66)
+print(x)
+print(type(x))
+
+
+x = (33)
+print(x)
+print(type(x)) #'int'
+
+x = ('33')
+print(x)
+print(type(x)) #'str
+
+x = (33,)
+print(x)
+print(type(x)) #'int
+
+
+x = (33,55)
+print(x)
+print(type(x)) #'tuple
+
+
+x = (33)
+print(x)
+print(type(x)) #'int
